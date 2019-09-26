@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Inspire Graphics</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="MDB/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="MDB/css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="CSS/Inspire_styles.css">
+    <style>
+        html,
+        body,
+        header,
+        .view {
+            height: 100%;
+        }
+        @media (min-width: 851px) and (max-width: 1440px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 850px;
+            }
+        }
+        @media (min-width: 800px) and (max-width: 850px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 1000px;
+            }
+        }
+        @media (min-width: 451px) and (max-width: 740px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 1200px;
+            }
+        }
+        @media (max-width: 450px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 1400px;
+            }
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.85)!important;
+        }
+        p {
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        h4 {
+            font-size: 1.3rem;
+        }
+        .purple-gradient{
+            background:linear-gradient(40deg,rgba(255, 75, 46, 0.5),rgba(120, 115, 245, 0.5))!important
+        }
+    </style>
+</head>
+
+<body class="fixed-sn white-skin">
+
+<!-- Main Navigation -->
+<header>
+
+    <!-- Sidebar navigation -->
+    <div id="slide-out" class="side-nav sn-bg-4 fixed">
+        <ul class="custom-scrollbar">
+
+            <!-- Logo -->
+            <li class="logo-sn waves-effect py-3">
+                <div class="text-center">
+                    <a href="#" class="pl-0"><img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"></a>
+                </div>
+            </li>
+
+            <!-- Search Form -->
+            <li>
+                <form class="search-form" role="search">
+                    <div class="md-form mt-0 waves-light">
+                        <input type="text" class="form-control py-2" placeholder="Search">
+                    </div>
+                </form>
+            </li>
+
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion">
+
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fas fa-tachometer-alt"></i>Dashboards<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../dashboards/v-1.html" class="waves-effect">Version 1</a>
+                                </li>
+                                <li>
+                                    <a href="../dashboards/v-2.html" class="waves-effect">Version 2</a>
+                                </li>
+                                <li>
+                                    <a href="../dashboards/v-3.html" class="waves-effect">Version 3</a>
+                                </li>
+                                <li>
+                                    <a href="../dashboards/v-4.html" class="waves-effect">Version 4</a>
+                                </li>
+                                <li>
+                                    <a href="../dashboards/v-5.html" class="waves-effect">Version 5</a>
+                                </li>
+                                <li>
+                                    <a href="../dashboards/v-6.html" class="waves-effect">Version 6</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fas fa-image"></i>About Us<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../pages/login.html" class="waves-effect">Vision and Mission</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/register.html" class="waves-effect">Infrastructure</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/pricing.html" class="waves-effect">Events</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fas fa-user"></i>Services<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a class="collapsible-header waves-effect arrow-r">
+                                        <i class="w-fa fas fa-user"></i>UI Development<i class="fas fa-angle-down rotate-icon"></i>
+                                    </a>
+                                    <div class="collapsible-body">
+                                        <ul>
+                                            <li>
+                                                <a href="../profile/basic-2.html" class="waves-effect">HTML</a>
+                                            </li>
+                                            <li>
+                                                <a href="../profile/extended.html" class="waves-effect">Extended</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="../profile/basic-2.html" class="waves-effect">Basic 2</a>
+                                </li>
+                                <li>
+                                    <a href="../profile/extended.html" class="waves-effect">Extended</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fab fa-css3"></i>CSS<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../css/grid.html" class="waves-effect">Grid system</a>
+                                </li>
+                                <li>
+                                    <a href="../css/media.html" class="waves-effect">Media object</a>
+                                </li>
+                                <li>
+                                    <a href="../css/utilities.html" class="waves-effect">Utilities / helpers</a>
+                                </li>
+                                <li>
+                                    <a href="../css/code.html" class="waves-effect">Code</a>
+                                </li>
+                                <li>
+                                    <a href="../css/icons.html" class="waves-effect">Icons</a>
+                                </li>
+                                <li>
+                                    <a href="../css/images.html" class="waves-effect">Images</a>
+                                </li>
+                                <li>
+                                    <a href="../css/typography.html" class="waves-effect">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="../css/animations.html" class="waves-effect">Animations</a>
+                                </li>
+                                <li>
+                                    <a href="../css/colors.html" class="waves-effect">Colors</a>
+                                </li>
+                                <li>
+                                    <a href="../css/hover.html" class="waves-effect">Hover effects</a>
+                                </li>
+                                <li>
+                                    <a href="../css/masks.html" class="waves-effect">Masks</a>
+                                </li>
+                                <li>
+                                    <a href="../css/shadows.html" class="waves-effect">Shadows</a>
+                                </li>
+                                <li>
+                                    <a href="../css/skins.html" class="waves-effect">Skins</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fas fa-th"></i>Components<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../components/buttons.html" class="waves-effect">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="../components/cards.html" class="waves-effect">Cards</a>
+                                </li>
+                                <li>
+                                    <a href="../components/collapse.html" class="waves-effect">Collapse</a>
+                                </li>
+                                <li>
+                                    <a href="../components/date.html" class="waves-effect">Date picker</a>
+                                </li>
+                                <li>
+                                    <a href="../components/list.html" class="waves-effect">List group</a>
+                                </li>
+                                <li>
+                                    <a href="../components/panels.html" class="waves-effect">Panels</a>
+                                </li>
+                                <li>
+                                    <a href="../components/pagination.html" class="waves-effect">Pagination</a>
+                                </li>
+                                <li>
+                                    <a href="../components/popovers.html" class="waves-effect">Popovers</a>
+                                </li>
+                                <li>
+                                    <a href="../components/progress.html" class="waves-effect">Progress bars</a>
+                                </li>
+                                <li>
+                                    <a href="../components/stepper.html" class="waves-effect">Stepper</a>
+                                </li>
+                                <li>
+                                    <a href="../components/tabs.html" class="waves-effect">Tabs & pills</a>
+                                </li>
+                                <li>
+                                    <a href="../components/tags.html" class="waves-effect">Tags, labels & badges</a>
+                                </li>
+                                <li>
+                                    <a href="../components/time.html" class="waves-effect">Time picker</a>
+                                </li>
+                                <li>
+                                    <a href="../components/tooltips.html" class="waves-effect">Tooltips</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa far fa-check-square"></i>Forms<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../forms/basic.html" class="waves-effect">Basic</a>
+                                </li>
+                                <li>
+                                    <a href="../forms/extended.html" class="waves-effect">Extended</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fas fa-table"></i>Tables<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../tables/basic.html" class="waves-effect">Basic</a>
+                                </li>
+                                <li>
+                                    <a href="../tables/extended.html" class="waves-effect">Extended</a>
+                                </li>
+                                <li>
+                                    <a href="../tables/datatables.html" class="waves-effect">DataTables.net</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="w-fa fas fa-map"></i>Maps<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="../maps/google.html" class="waves-effect">Google Maps</a>
+                                </li>
+                                <li>
+                                    <a href="../maps/full.html" class="waves-effect">Full screen map</a>
+                                </li>
+                                <li>
+                                    <a href="../maps/vector.html" class="waves-effect">Vector world map</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Simple link -->
+                    <li>
+                        <a href="../alerts/alerts.html" class="collapsible-header waves-effect"><i
+                                class="w-fa far fa-bell"></i>Alerts</a>
+                    </li>
+                    <li>
+                        <a href="../modals/modals.html" class="collapsible-header waves-effect"><i
+                                class="w-fa fas fa-bolt"></i>Modals</a>
+                    </li>
+                    <li>
+                        <a href="../charts/charts.html" class="collapsible-header waves-effect"><i
+                                class="w-fa fas fa-chart-pie"></i>Charts</a>
+                    </li>
+                    <li>
+                        <a href="../calendar/calendar.html" class="collapsible-header waves-effect"><i
+                                class="w-fa far fa-calendar-check"></i>Calendar</a>
+                    </li>
+                    <li>
+                        <a href="../sections/sections.html" class="collapsible-header waves-effect"><i
+                                class="w-fa fas fa-th-large"></i>Sections</a>
+                    </li>
+
+                </ul>
+            </li>
+            <!-- Side navigation links -->
+
+        </ul>
+        <div class="sidenav-bg mask-strong"></div>
+    </div>
+    <!-- Sidebar navigation -->
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav bg-transparent text-white">
+
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"> </i></a>
+        </div>
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-dn mr-auto">
+            <p>Dashboard v.1</p>
+        </div>
+
+        <div class="d-flex change-mode">
+
+            <!-- Navbar links -->
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown notifications-nav">
+                    <a class="nav-link dropdown-toggle waves-effect" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        <span class="badge red">3</span> <i class="fas fa-bell"></i>
+                        <span class="d-none d-md-inline-block">Notifications</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">
+                            <i class="far fa-money-bill-alt mr-2" aria-hidden="true"></i>
+                            <span>New order received</span>
+                            <span class="float-right"><i class="far fa-clock" aria-hidden="true"></i> 13 min</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="far fa-money-bill-alt mr-2" aria-hidden="true"></i>
+                            <span>New order received</span>
+                            <span class="float-right"><i class="far fa-clock" aria-hidden="true"></i> 33 min</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-chart-line mr-2" aria-hidden="true"></i>
+                            <span>Your campaign is about to end</span>
+                            <span class="float-right"><i class="far fa-clock" aria-hidden="true"></i> 53 min</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect"><i class="fas fa-envelope"></i> <span
+                            class="clearfix d-none d-sm-inline-block">Contact</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect"><i class="far fa-comments"></i> <span
+                            class="clearfix d-none d-sm-inline-block">Support</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect" href="#" id="userDropdown" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Profile</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">Log Out</a>
+                        <a class="dropdown-item" href="#">My account</a>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- Navbar links -->
+
+        </div>
+
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Fixed button -->
+    <div class="fixed-action-btn clearfix d-none d-xl-block" style="bottom: 45px; right: 24px;">
+
+        <a class="btn-floating btn-lg red">
+            <i class="fas fa-pencil-alt"></i>
+        </a>
+
+        <ul class="list-unstyled">
+            <li><a class="btn-floating red"><i class="fas fa-star"></i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="fas fa-user"></i></a></li>
+            <li><a class="btn-floating green"><i class="fas fa-envelope"></i></a></li>
+            <li><a class="btn-floating blue"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+    </div>
+
+    <!-- Fixed button -->
+
+
+    <!-- Intro Section -->
+    <section class="view intro-2" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/forest1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="mask rgba-gradient7 purple-gradient">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+
+                <!-- Grid row -->
+                <div class="row  pt-5 mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+
+                        <div class="card">
+                            <div class="card-body">
+
+                                <h2 class="text-center mb-5 mt-4 font-weight-bold">
+                                    <strong>REGISTER</strong>
+                                </h2>
+                                <hr>
+
+                                <!-- Grid row -->
+                                <div class="row mt-5">
+
+                                    <!-- Grid column -->
+                                    <div class="col-md-6 ml-lg-5 ml-md-3">
+
+                                        <!-- Grid row -->
+                                        <div class="row pb-3">
+                                            <div class="col-2 col-lg-1">
+                                                <i class="fas fa-university indigo-text fa-lg"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <h4 class="feature-title">
+                                                    <strong>Safety</strong>
+                                                </h4>
+                                                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam ipsam voluptatem quia voluptas minima assumenda deleniti hic.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Grid row -->
+
+                                        <!-- Grid row -->
+                                        <div class="row pb-3">
+                                            <div class="col-2 col-lg-1">
+                                                <i class="fas fa-desktop indigo-text fa-lg"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <h4 class="feature-title">
+                                                    <strong>Technology</strong>
+                                                </h4>
+                                                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam ipsam voluptatem quia voluptas minima assumenda deleniti hic.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Grid row -->
+
+                                        <!-- Grid row -->
+                                        <div class="row pb-4">
+                                            <div class="col-2 col-lg-1">
+                                                <i class="far fa-money-bill-alt indigo-text fa-lg"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <h4 class="feature-title">
+                                                    <strong>Finance</strong>
+                                                </h4>
+                                                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam ipsam voluptatem quia voluptas minima assumenda deleniti hic.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Grid row -->
+
+                                    </div>
+                                    <!-- Grid column -->
+
+                                    <!-- Grid column -->
+                                    <div class="col-md-5">
+
+                                        <!-- Grid row -->
+                                        <div class="row pb-4 d-flex justify-content-center mb-4">
+
+                                            <h4 class="mt-3 mr-4">
+                                                <strong>Login with</strong>
+                                            </h4>
+
+                                            <div class="inline-ul text-center d-flex justify-content-center">
+                                                <a class="p-2 m-2 fa-lg tw-ic">
+                                                    <i class="fab fa-twitter fa-lg orange-text"></i>
+                                                </a>
+                                                <a class="p-2 m-2 fa-lg li-ic">
+                                                    <i class="fab fa-linkedin-in fa-lg orange-text"> </i>
+                                                </a>
+                                                <a class="p-2 m-2 fa-lg ins-ic">
+                                                    <i class="fab fa-instagram fa-lg orange-text"> </i>
+                                                </a>
+                                            </div>
+
+                                            <h4 class="mt-3 ml-4">
+                                                <strong>or:</strong>
+                                            </h4>
+
+                                        </div>
+                                        <!-- Grid row -->
+
+                                        <!-- Body -->
+                                        <div class="md-form mb-0">
+                                            <i class="fas fa-user prefix dark-grey-text"></i>
+                                            <input type="text" id="orangeForm-name" class="form-control">
+                                            <label for="orangeForm-name">Your name</label>
+                                        </div>
+                                        <div class="md-form mb-0">
+                                            <i class="fas fa-envelope prefix dark-grey-text"></i>
+                                            <input type="email" id="orangeForm-email" class="form-control">
+                                            <label for="orangeForm-email">Your email</label>
+                                        </div>
+
+                                        <div class="md-form mb-0">
+                                            <i class="fas fa-eye prefix dark-grey-text"></i>
+                                            <input type="password" id="orangeForm-pass" class="form-control">
+                                            <label for="orangeForm-pass">Your password</label>
+                                        </div>
+                                        <div class="md-form mb-0">
+                                            <i class="fas fa-eye prefix dark-grey-text"></i>
+                                            <input type="password" id="orangeForm-cnf-pass" class="form-control">
+                                            <label for="orangeForm-pass">confirm password</label>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <button class="btn blue-gradient btn-rounded mt-3">Sign up</button>
+                                        </div>
+                                        <div class="grecaptcha" data-sitekey="6LekoLoUAAAAAOWIlHSdamooLfoGR3NjgrhcYeZc"></div>
+
+                                    </div>
+                                    <!-- Grid column -->
+
+                                </div>
+                                <!-- Grid row -->
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+        </div>
+    </section>
+</header>
+<!-- Main Navigation -->
+
+<!--Footer-->
+<footer class="page-footer text-center text-md-left unique-color-dark pt-0">
+
+    <div class="top-footer-color bg-warning">
+        <div class="container">
+
+            <!--Grid row-->
+            <div class="row py-4 d-flex  align-items-center">
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-md-0">
+                    <h6 class="mb-0 white-text font-weight-bolder">Get connected with us on social networks!</h6>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <!--Facebook-->
+                    <a class="p-2 m-2 fa-lg fb-ic ml-0">
+                        <i class="fab fa-facebook-f white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Twitter-->
+                    <a class="p-2 m-2 fa-lg tw-ic">
+                        <i class="fab fa-twitter white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Google +-->
+                    <a class="p-2 m-2 fa-lg gplus-ic">
+                        <i class="fab fa-google-plus-g white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Linkedin-->
+                    <a class="p-2 m-2 fa-lg li-ic">
+                        <i class="fab fa-linkedin-in white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="p-2 m-2 fa-lg ins-ic">
+                        <i class="fab fa-instagram white-text mr-lg-4"> </i>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+
+    <!--Footer Links-->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+
+            <!--First column-->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <h6 class="spacing font-weight-bold">
+                    <strong>Company name</strong>
+                </h6>
+                <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipisicing elit.</p>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="spacing font-weight-bold">
+                    <strong>Products</strong>
+                </h6>
+                <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!">MDBootstrap</a>
+                </p>
+                <p>
+                    <a href="#!">MDWordPress</a>
+                </p>
+                <p>
+                    <a href="#!">BrandFlow</a>
+                </p>
+                <p>
+                    <a href="#!">Bootstrap Angular</a>
+                </p>
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="spacing font-weight-bold">
+                    <strong>Useful links</strong>
+                </h6>
+                <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!">Your Account</a>
+                </p>
+                <p>
+                    <a href="#!">Become an Affiliate</a>
+                </p>
+                <p>
+                    <a href="#!">Shipping Rates</a>
+                </p>
+                <p>
+                    <a href="#!">Help</a>
+                </p>
+            </div>
+            <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h6 class="spacing font-weight-bold">
+                    <strong>Contact</strong>
+                </h6>
+                <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p>
+                    <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!--/.Fourth column-->
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <!-- Copyright -->
+    <div class="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.3s">
+        <div class="container-fluid">
+            © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+        </div>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script src="MDB/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="MDB/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="MDB/js/bootstrap.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="MDB/js/mdb.min.js"></script>
+<!-- Inspire Script -->
+<script type="text/javascript" src="JS/inspire_script.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('_reCAPTCHA_site_key_', {action: 'homepage'}).then(function(token) {
+        ...
+        });
+    });
+</script>
+</body>
+
+</html>
