@@ -337,7 +337,7 @@
 
         <!-- Breadcrumb -->
         <div class="breadcrumb-dn mr-auto">
-            <p>Dashboard v.1</p>
+            <p>INSPIRE GRAPHICS</p>
         </div>
 
         <div class="d-flex change-mode">
@@ -379,8 +379,7 @@
                             class="clearfix d-none d-sm-inline-block">Support</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle waves-effect" href="#" id="userDropdown" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link waves-effect" href="" data-toggle="modal" data-target="#darkModalForm">
                         <i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Sign In</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
@@ -627,6 +626,88 @@
 
 <!-- Main layout -->
 <main>
+
+
+    <!-- Login-Modal -->
+    <div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog form-dark" role="document">
+            <!--Content-->
+            <div class="modal-content card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
+                <div class="text-white rgba-stylish-strong py-2 px-2 z-depth-4">
+                    <!--Header-->
+                    <div class="modal-header text-center pb-4">
+                        <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
+                                class="blue-text font-weight-bold"><strong> IN</strong></a></h3>
+                        <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!--Body-->
+                    <div class="modal-body">
+                        <!--Body-->
+                        <div class="col-md-12">
+                            <p class="font-small text-warning d-flex justify-content-center">Please enter valid username and Password</p>
+                        </div>
+                        <div class="md-form mb-5">
+                            <input type="email" id="Form-email5" class="form-control validate white-text">
+                            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <input type="password" id="Form-pass5" class="form-control validate white-text">
+                            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
+                            <div class="form-group">
+                                <input class="form-check-input" type="checkbox" id="checkbox624">
+                                <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
+                                    Terms and Conditions</a></label>
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <p class="font-small white-text d-flex justify-content-end"><a href="#" class="green-text ml-1 font-weight-bold">
+                                    Forgot Password</a></p>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+
+                        <!--Grid row-->
+                        <div class="row d-flex align-items-center mb-4">
+
+                            <!--Grid column-->
+                            <div class="text-center mb-3 col-md-12">
+                                <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1">Sign up</button>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <p class="font-small white-text d-flex justify-content-end">Don't have an account? <a href="form.html" class="green-text ml-1 font-weight-bold">
+                                    Sign up</a></p>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                    </div>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!-- Modal -->
+
 
     <!-- Section: About -->
     <section id="about" class="about mb-5 py-1 wow fadeIn" data-wow-delay="0.2s">

@@ -96,6 +96,9 @@ $(function () {
     });
 });
 
+// Data Picker Initialization
+$('.datepicker').pickadate();
+
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml10 .letters');
